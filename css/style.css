@@ -31,3 +31,43 @@ header {
 header h1 {
     font-size: 2em;
 }
+
+/**
+ * Main content styles
+ * Styling for the main content area. This includes width, margins, 
+ * background color, padding, border radius, and box shadow.
+ */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * Form styles
+ * Styles specific to form fields, labels, buttons, and error messages.
+ */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
