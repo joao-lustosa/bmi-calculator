@@ -4,7 +4,8 @@
  * It also sets a default font and colors for the body.
  */
 body,
-h1 {
+h1,
+p {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -71,4 +72,15 @@ select {
 .error-message {
     color: red;
     margin-top: 5px;
+}
+
+/**
+ * BMI Info styles
+ * Styling for the BMI information section, including margins for the section,
+ * bottom margin for the heading, list style type, padding for list items,
+ * and font size for the result text.
+ */
+#result {
+    font-size: 1.2em;
+    margin-top: 20px;
 }
