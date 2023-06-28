@@ -1,0 +1,16 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE project files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore temp/cache files
+tmp/
+cache/
