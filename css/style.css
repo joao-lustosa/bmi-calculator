@@ -3,7 +3,8 @@
  * This section resets the default padding and margins for several elements.
  * It also sets a default font and colors for the body.
  */
-body {
+body,
+h1 {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -13,4 +14,20 @@ body {
     background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
+}
+
+/**
+ * Header styles
+ * Styles for the page header, including the background color, text color, 
+ * padding, and text alignment.
+ */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
 }
