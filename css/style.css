@@ -5,7 +5,10 @@
  */
 body,
 h1,
-p {
+h2,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -80,6 +83,23 @@ select {
  * bottom margin for the heading, list style type, padding for list items,
  * and font size for the result text.
  */
+#bmi-info {
+    margin-top: 20px;
+}
+
+#bmi-info h2 {
+    margin-bottom: 10px;
+}
+
+#bmi-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#bmi-info ul li {
+    padding: 5px 0;
+}
+
 #result {
     font-size: 1.2em;
     margin-top: 20px;
