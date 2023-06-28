@@ -72,6 +72,20 @@ select {
     box-sizing: border-box;
 }
 
+input[type="button"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
 .error-message {
     color: red;
     margin-top: 5px;
