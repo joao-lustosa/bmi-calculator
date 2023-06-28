@@ -18,6 +18,28 @@
     <header>
         <h1>BMI Calculator</h1>
     </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- BMI Calculator Form -->
+        <form id="bmi-form">
+            <!-- Weight Input -->
+            <div class="form-group">
+                <label for="weight">Weight:</label>
+                <span id="weight-unit">(kg)</span>
+                <input type="number" id="weight" min="0.1" required>
+                <div id="weight-error-message" class="error-message"></div>
+            </div>
+
+            <!-- Height Input -->
+            <div class="form-group">
+                <label for="height">Height:</label>
+                <span id="height-unit">(cm)</span>
+                <input type="number" id="height" min="0.1" required>
+                <div id="height-error-message" class="error-message"></div>
+            </div>
+        </form>
+    </main>
 </body>
 
 </html>
