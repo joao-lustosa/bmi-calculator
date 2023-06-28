@@ -21,6 +21,15 @@
 
     <!-- Main content -->
     <main>
+        <!-- Measurement System Selector -->
+        <div class="form-group">
+            <label for="measurement-system">Measurement system:</label>
+            <select id="measurement-system" onchange="changeMeasurementSystem()">
+                <option value="metric">Metric (kg, cm)</option>
+                <option value="imperial">Imperial (lb, inches)</option>
+            </select>
+        </div>
+
         <!-- BMI Calculator Form -->
         <form id="bmi-form">
             <!-- Weight Input -->
