@@ -1,3 +1,7 @@
+// Function to calculate the Body Mass Index (BMI)
+function calculateBmi() {
+}
+
 // Function to change the measurement system (Metric or Imperial)
 function changeMeasurementSystem() {
     // Get the selected measurement system
